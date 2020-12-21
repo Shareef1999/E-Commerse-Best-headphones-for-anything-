@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.logo {
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 50%;
+    cursor: pointer;  
+    border-radius: 50%; 
+    border: 2px solid black;
+}
+
+.navbar {
+    background-color: #ebfdfb;
+    display: flex;
+    list-style-type: none;
+    font-family: 'Acme', sans-serif;
+    position: sticky;
+    top: 0;
+    font-size: 18px;
+}
+  
+.navlist{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 
+}
+
+.navlist li{
+   list-style-type: none;
+   padding: 28px 23px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: #0dceda;
+}
+.navlist li a:hover {
+    color: #f57170;
+}
+
+.rnav {
+    width: 50%;
+    text-align :right;
+    padding: 38px
+}
+
+.rnav ul a{
+    padding-right: 36px;
+    text-decoration: none;
+    color: #0dceda;
+}
+.rnav ul a:hover {
+    color: #f57170;
+}
+
+.button {
+    background-color: white;
+    color: #0dceda;
+    cursor: pointer;
+    font-family: 'Acme', sans-serif;
+    padding: 0 9px;
+}
+.button:hover{
+    color: #f57170;
+}
+
+#search {
+  font-family: 'Acme', sans-serif;
+  
+  
+}
+
+.matter{
+    width: 50%;
+    margin: 60px auto;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    color: #444;
+   
+}
+
+.matter h1 {
+    letter-spacing: 5px;
+
+}
+
+hr {
+    border-style: none;
+    border-top-style: dashed;
+    border-color: grey;
+    border-width: 1px;
+    padding-bottom: 5px;
+    width: 130px;
+    margin-left: 38%;
+    align-items: center;    
+}
+
+.one-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.two-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: thicker;
+    letter-spacing: 1px;
+}
+
+.matter2{
+    width: 50%;
+    margin: 90px auto;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    color: #444;
+   
+}
+
+.matter2 h1 {
+    letter-spacing: 5px;
+}
+
+.matter2 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.type-earphones {
+    
+    width: 50%;
+    margin: 80px auto;
+    text-align: left;
+    padding-bottom: 30px;
+    font-family: 'Acme', sans-serif;
+}
+.type-earphones:hover{
+    cursor: pointer;
+}
+.type-earphones h2 {
+    color: #0dceda;
+    cursor: pointer;
+}
+.type-earphones h2:hover {
+    cursor: pointer;
+    color: #f57170;
+}
+.type-earphones p {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+.wireless {
+    width: 18%;
+    float: left;
+    margin-right: 30px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+
+.Bluethooth-earphones {
+    width: 18%;
+    float: right;
+    margin-left: 30px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.true-wireless-earbuds {
+    width: 18%;
+    float: left;
+    margin-right: 30px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+
+.wired-headphones {
+    width: 18%;
+    float: right;
+    margin-left: 30px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.In-ears {
+    width: 18%;
+    float: left;
+    margin-right: 30px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.gaming-headphones {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.main-footer {
+  background-color: #ebfdfb;
+}
+
+td {
+    padding: 30px;
+}
+td a {
+    font-family: 'Roboto', sans-serif;
+    color: #f57170;
+    text-decoration: none;
+}
+td a:hover {
+  color: #0dceda;
+}
+
+.wrapper {
+  background-color: #efefef;
+}
+.form {
+    background: white;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    border-radius: 5px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border-top: 5px solid #0e3721;
+  /*   z-index: 1; */
+    animation: bounce 1.5s infinite;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 1.3em;
+  }
+  
+  .title{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px auto 5px;
+    width: 300px;
+  }
+  .termsConditions{
+    margin: 0 10px 30px 370px;
+  }
+  
+  .pageTitle{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
+  }
+  .secondaryTitle{
+    color: grey;
+  }
+  
+  .name {
+    background-color: #ebebeb;
+    color: black;
+  }
+  .name:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .email {
+    background-color: #ebebeb;
+    height: 2em;
+  }
+  
+  .email:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .message {
+    background-color: #ebebeb;
+    overflow: hidden;
+    height: 10rem;
+  }
+  
+  .message:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 12em;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .formEntry {
+    display: block;
+    margin: 30px auto;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .submit {
+    width: 200px;
+    color: white;
+    background-color: #0e3721;
+    font-size: 20px;
+  }
+  
+  .submit:hover {
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    transform: translateY(-10px);
+    width: 300px;
+    border-top: 5px solid #0e3750;
+    border-radius: 0%;
+  }
+
+  .copyrights {
+    text-align: center;
+  }
+  
+  @keyframes bounce {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  } 
+
+.burger {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15px;
+}
+
+.line {
+  width: 33px;
+  background-color: black;
+  height: 4px;
+  margin: 5px 3px;
+}
+
+
+
+@media only screen and (max-width: 992px){
+  .nav-list{
+    flex-direction: column;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .burger {
+    display: block;
+  }
+  .h-nav-resp {
+    height: 72px;
+  }
+  .v-nav-resp {
+    opacity: 0;
+  }
+    
+}
+
+
+  
